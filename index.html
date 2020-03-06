@@ -1,0 +1,346 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+  <title>Xello Test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="app/assets/css/style.css" type="text/css" />
+</head>
+
+<body>
+   <!-- Container -->
+  <div class="container">
+     <!-- Header -->
+    <header class="row">
+      <div class="col-md-7 col-sm-6 clearfix">
+        <h1>High-School Diploma 2017</h1>
+        <div class="credits-left">
+          <span class="total-credits">14</span>
+          Credit Left!
+        </div>
+      </div>
+      <div class="col-md-5 col-sm-6 credit-progress clearfix">
+        <div class="credit-progress-container">
+          <div class="progress-bar-container">
+            <div class="progress-bar"></div>
+          </div>
+          <div class="value">
+            <span class="dividend">14</span>
+            <span class="seperator">/</span>
+            30
+          </div>
+        </div>
+      </div>
+    </header>
+     <!-- Requirement Bar -->
+    <div class="requirements-container row">
+      <div class="col-xs-12 requirements-inner-container">
+        <div class="requirements clearfix">
+          <span class="requirement-title">Requirements</span>
+          <form>
+            <select>
+              <option value="show-all">Show All</option>
+              <option value="show-all">Show All</option>
+              <option value="show-all">Show All</option>
+              <option value="show-all">Show All</option>
+            </select>
+            <span class="divider"></span>
+            <span>Credits</span>
+            <label class="navbar-link" for="all">
+              <input type="checkbox" id="all" value="all"> All
+            </label>
+            <label class="navbar-link" for="earned">
+              <input type="checkbox" id="earned" value="earned"> Earned
+            </label>
+            <label class="navbar-link" for="planned">
+              <input type="checkbox" id="planned" value="planned"> Planned
+            </label>
+            <label class="navbar-link" for="remaining">
+              <input type="checkbox" id="remaining" value="remaining"> Remaining
+            </label>
+          </form>
+        </div>
+      </div>
+    </div>
+     <!-- Year Columns -->
+    <div class="wrapper year-credits-container">
+      <div class="row">
+        <div class="col-md-3 year-column nine-year active">
+          <div class="inner-container">
+            <div class="list-title-container">
+              <p class="title">YEAR 9 (next year)</p>
+              <p class="credits-earned">1 credit planned</p>
+            </div>
+            <ul>
+              <li class="slot-list selected">
+                <div class="list-container">
+                  <div class="content">
+                    <p class="info-title dark-grey">English</p>
+                    <p class="info-desc dark-grey">ENG1PI
+                      <span class="subject-name">English 9</span>
+                      <span class="subject-credit">1 cr.</span>
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="slot-list selected">
+                <div class="list-container">
+                  <div class="content">
+                    <p class="info-title dark-grey">Functions
+                      <span class="tooltip" data-id="tip">!</span>
+                    </p>
+                    <p class="info-desc dark-grey">MAT1U1
+                      <span class="subject-name">Math 9</span>
+                      <span class="subject-credit">1 cr.</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="toottip-info slot-list" id="tip">
+                  <div class="list-container">
+                    <div class="content">
+                      <p class="info-title dark-grey">This course requires a Pre-Requisite</p>
+                      <p class="info-desc light-blue">Add one.</p>
+                    </div>
+                  </div>
+                  <i class="fa fa-caret-down" aria-hidden="true"></i>
+                </div>
+              </li>
+              <li class="slot-list add-slot">
+                <div class="add-remove-icon">
+                  <div class="horizontal"></div>
+                  <div class="vertical"></div>
+                </div>
+                <div class="list-container">
+                  <div class="content">
+                    <p class="info-title light-blue">Add Science 9</p>
+                    <p class="info-desc">1 cr.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="slot-list add-slot">
+                <div class="add-remove-icon">
+                  <div class="horizontal"></div>
+                  <div class="vertical"></div>
+                </div>
+                <div class="list-container">
+
+                  <div class="content">
+                    <p class="info-title light-blue">Add Geography</p>
+                    <p class="info-desc">1 cr.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="slot-list add-slot">
+                <div class="add-remove-icon">
+                  <div class="horizontal"></div>
+                  <div class="vertical"></div>
+                </div>
+                <div class="list-container">
+
+                  <div class="content">
+                    <p class="info-title light-blue">Add French</p>
+                    <p class="info-desc">1 cr.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="slot-list add-slot">
+                <div class="add-remove-icon">
+                  <div class="horizontal"></div>
+                  <div class="vertical"></div>
+                </div>
+                <div class="list-container">
+
+                  <div class="content">
+                    <p class="info-title light-blue">Add Elective</p>
+                    <p class="info-desc">16 credit remaining</p>
+                  </div>
+                </div>
+              </li>
+              <li class="slot-list available">
+                <div class="list-container">
+                  <p>Available Slot</p>
+                </div>
+              </li>
+              <li class="slot-list available">
+                <div class="list-container">
+                  <p>Available Slot</p>
+                </div>
+              </li>
+            </ul>
+            <div class="submit-container">
+              <button>
+                <span>Ready To Submit</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 year-column ten-year">
+          <div class="inner-container">
+            <div class="list-title-container">
+              <p class="title">YEAR 10</p>
+              <p class="credits-earned">0 credit earned</p>
+            </div>
+            <ul>
+              <li class="slot-list available">
+                <div class="list-container">
+                  <p>Available Slot</p>
+                </div>
+              </li>
+              <li class="slot-list available">
+                <div class="list-container">
+                  <p>Available Slot</p>
+                </div>
+              </li>
+              <li class="slot-list available">
+                <div class="list-container">
+                  <p>Available Slot</p>
+                </div>
+              </li>
+              <li class="slot-list available">
+                <div class="list-container">
+                  <p>Available Slot</p>
+                </div>
+              </li>
+              <li class="slot-list available">
+                <div class="list-container">
+                  <p>Available Slot</p>
+                </div>
+              </li>
+              <li class="slot-list available">
+                <div class="list-container">
+                  <p>Available Slot</p>
+                </div>
+              </li>
+              <li class="slot-list available">
+                <div class="list-container">
+                  <p>Available Slot</p>
+                </div>
+              </li>
+              <li class="slot-list available">
+                <div class="list-container">
+                  <p>Available Slot</p>
+                </div>
+              </li>
+            </ul>
+            <div class="submit-container">
+              <button>Ready To Submit</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 year-column eleven-year">
+          <div class="inner-container">
+            <div class="list-title-container">
+              <p class="title">YEAR 11</p>
+              <p class="credits-earned">0 credit earned</p>
+            </div>
+            <ul>
+              <li class="slot-list available">
+                <div class="list-container">
+                  <p>Available Slot</p>
+                </div>
+              </li>
+              <li class="slot-list available">
+                <div class="list-container">
+                  <p>Available Slot</p>
+                </div>
+              </li>
+              <li class="slot-list available">
+                <div class="list-container">
+                  <p>Available Slot</p>
+                </div>
+              </li>
+              <li class="slot-list available">
+                <div class="list-container">
+                  <p>Available Slot</p>
+                </div>
+              </li>
+              <li class="slot-list available">
+                <div class="list-container">
+                  <p>Available Slot</p>
+                </div>
+              </li>
+              <li class="slot-list available">
+                <div class="list-container">
+                  <p>Available Slot</p>
+                </div>
+              </li>
+              <li class="slot-list available">
+                <div class="list-container">
+                  <p>Available Slot</p>
+                </div>
+              </li>
+              <li class="slot-list available">
+                <div class="list-container">
+                  <p>Available Slot</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="submit-container">
+            <button>Ready To Submit</button>
+          </div>
+        </div>
+        <div class="col-md-3 year-column twelve-year">
+          <div class="inner-container">
+            <div class="list-title-container">
+              <p class="title">YEAR 12</p>
+              <p class="credits-earned">0 credit earned</p>
+            </div>
+            <ul>
+              <li class="slot-list available">
+                <div class="list-container">
+                  <p>Available Slot</p>
+                </div>
+              </li>
+              <li class="slot-list available">
+                <div class="list-container">
+                  <p>Available Slot</p>
+                </div>
+              </li>
+              <li class="slot-list available">
+                <div class="list-container">
+                  <p>Available Slot</p>
+                </div>
+              </li>
+              <li class="slot-list available">
+                <div class="list-container">
+                  <p>Available Slot</p>
+                </div>
+              </li>
+              <li class="slot-list available">
+                <div class="list-container">
+                  <p>Available Slot</p>
+                </div>
+              </li>
+              <li class="slot-list available">
+                <div class="list-container">
+                  <p>Available Slot</p>
+                </div>
+              </li>
+              <li class="slot-list available">
+                <div class="list-container">
+                  <p>Available Slot</p>
+                </div>
+              </li>
+              <li class="slot-list available">
+                <div class="list-container">
+                  <p>Available Slot</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="submit-container">
+            <button>Ready To Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts-->
+  <script src="app/bower_components/jquery-3.2.1.min/index.js"></script>
+  <script src="app/assets/js/app.js"></script>
+</body>
+
+</html>
